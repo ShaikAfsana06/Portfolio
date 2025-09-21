@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaik Apsana | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header --> 
+  <header>
+    <nav>
+      <h1 class="logo">Shaik Apsana</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Particles -->
+  <section id="home" class="hero">
+    <canvas id="particles"></canvas>
+    <div class="hero-content animate">
+      <h1>Hello, I'm <span class="highlight">Shaik Apsana</span></h1>
+
+
+
+
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="glass-section animate">
+    <h2>About Me</h2>
+    <p>I am a passionate frontend developer skilled in HTML, CSS, JavaScript, and React. I design websites with smooth animations, interactive UI, and professional layouts that impress users.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="glass-section animate">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card floating">
+        <i class="fab fa-html5"></i>
+        <p>HTML5</p>
+      </div>
+      <div class="skill-card floating">
+        <i class="fab fa-css3-alt"></i>
+        <p>CSS3</p>
+      </div>
+      <div class="skill-card floating">
+        <i class="fab fa-js-square"></i>
+        <p>JavaScript</p>
+      </div>
+      <div class="skill-card floating">
+        <i class="fab fa-react"></i>
+        <p>React</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="glass-section animate">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card floating animate-slide">
+        <img src="project1.jpg" alt="Project 1">
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>Responsive portfolio with interactive animations and modern UI.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="project-card floating animate-slide">
+        <img src="project2.jpg" alt="Project 2">
+        <div class="project-info">
+          <h3>E-commerce Landing</h3>
+          <p>Stylish landing page for an online store with modern design.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+      <div class="project-card floating animate-slide">
+        <img src="project3.jpg" alt="Project 3">
+        <div class="project-info">
+          <h3>Weather App</h3>
+          <p>Dynamic weather application fetching live API data.</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="glass-section animate">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="animate">
+    <p>© 2025 Shaik Apsana. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
